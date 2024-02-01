@@ -1,5 +1,5 @@
 {% set name = "sphinx-versioned-docs" %}
-{% set version = "1.1" %}
+{% set version = "1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx-versioned-docs-{{ version }}.tar.gz
-  sha256: fb6e767ce17dca4ba1c552c8d196af7c90c73916803866243129658f4a1dafa8
+  sha256: 1fa444d70e392ceaf6269b5e38dc0a2f6a0a2f99d245ee4ea9e2b45d0e63f953
 
 build:
   entry_points:
